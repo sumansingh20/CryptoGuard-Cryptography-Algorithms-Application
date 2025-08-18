@@ -18,6 +18,7 @@ To install and run the Cryptography Algorithms App, follow these steps:
 npm install
 ```
 
+
 2. Launch the application:
 ```bash
 node app.js
