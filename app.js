@@ -5,6 +5,7 @@ const encryption = require('./encryption');
 
 const app = express();
 
+
 // Security middleware
 app.use(helmet());
 app.use(bodyParser.json());
