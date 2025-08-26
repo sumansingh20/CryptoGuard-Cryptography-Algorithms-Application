@@ -19,6 +19,7 @@ class EncryptionService {
         }
     }
 
+    
     // Validates that ENCRYPTION_KEY is correctly set and is 32 bytes long
     validateKey() {
         if (!this.ENCRYPTION_KEY || Buffer.from(this.ENCRYPTION_KEY, 'base64').length !== 32) {
