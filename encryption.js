@@ -3,7 +3,6 @@ const crypto = require('crypto');
 const NodeRSA = require('node-rsa');
 
 
-
 // Define the EncryptionService class for handling AES and RSA encryption
 class EncryptionService {
     constructor() {
