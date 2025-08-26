@@ -27,6 +27,7 @@ class EncryptionService {
         }
     }
 
+    
     // Encrypts text using AES-256-GCM algorithm
     async aesEncrypt(text) {
         if (!text) throw new Error('Text is required for encryption'); // Validate input
