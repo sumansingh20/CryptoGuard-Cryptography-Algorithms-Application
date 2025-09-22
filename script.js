@@ -1,4 +1,5 @@
 
+
 // Encryption form submission handler
 document.getElementById('encryptionForm').addEventListener('submit', async (event) => {
     event.preventDefault(); // Prevents the form from submitting in the default way
